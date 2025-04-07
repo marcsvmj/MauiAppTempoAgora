@@ -29,7 +29,7 @@ namespace MauiAppTempoAgora.Services
                                 throw new Exception("Requisição mal formada.");
                             default:
                                 throw new Exception($"Erro HTTP: {resp.StatusCode}");
-                        }
+                        } // tratar com internet
                     }
 
                     string json = await resp.Content.ReadAsStringAsync();
@@ -66,6 +66,7 @@ namespace MauiAppTempoAgora.Services
             }
 
             return t;
+            //retorna formatado
         }
     }
 }

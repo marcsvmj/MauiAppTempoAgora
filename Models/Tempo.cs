@@ -12,5 +12,5 @@
         public string? description { get; set; }
         public string? sunrise { get; set; }
         public string? sunset { get; set; }
-    }
+    } // pega os itens do JSON
 }
