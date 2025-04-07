@@ -40,7 +40,7 @@ namespace MauiAppTempoAgora
 
                     } else
                     {
-                        lbl_res.Text = "Sem dados de Previsão";
+                        lbl_res.Text = "Sem dados para a previsão. \n Tente novamente mais tarde.";
                     }
 
                 } else

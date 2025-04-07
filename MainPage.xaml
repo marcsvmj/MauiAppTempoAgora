@@ -9,7 +9,9 @@
             Padding="30,0"
             Spacing="25">
 
+            <Label Text="Digite sua Cidade:"/>
             <Entry x:Name="txt_cidade" />
+            <Label Text="Digite a Sigla de sua Língua:"/>
             <Entry x:Name="txt_lingua" />
             <Button Text="Buscar" Clicked="Button_Clicked" />
 
