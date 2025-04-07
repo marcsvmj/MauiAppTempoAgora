@@ -42,7 +42,7 @@ namespace MauiAppTempoAgora
 
                 } else
                 {
-                    lbl_res.Text = "Preencha a cidade.";
+                    lbl_res.Text = "Preencha a cidade/língua.";
                 }
 
             } catch (Exception ex)
